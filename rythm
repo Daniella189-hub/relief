@@ -1,0 +1,9 @@
+ # ! /bin/bash
+  read -p " enter the name of a file" file
+
+  if [ -f "$file" ]; 
+  then 
+      echo " this file $file exist, proceed and see what happens next"
+  else
+     echo " do not border" 
+  fi
